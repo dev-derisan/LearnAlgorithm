@@ -6,7 +6,7 @@
 int ns[100'000];
 int ms[100'000];
 
-void foo()
+void P1920()
 {
   int n = 0;
   scanf("%d", &n);
