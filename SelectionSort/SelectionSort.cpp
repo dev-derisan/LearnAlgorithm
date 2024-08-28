@@ -27,15 +27,3 @@ void SelectionSort2(std::vector<int>& nums)
     std::swap(nums[i], nums[minIndex]);
   }
 }
-
-
-int main()
-{
-  std::vector<int> nums{ 1, 5, -1, 8, 10, 9, 6 };
-  SelectionSort2(nums);
-
-  for (const int num : nums)
-  {
-    std::cout << num << std::endl;
-  }
-}
