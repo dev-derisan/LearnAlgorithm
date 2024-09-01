@@ -131,7 +131,9 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <ClCompile Include="10815.cpp" />
     <ClCompile Include="10816.cpp" />
+    <ClCompile Include="1654.cpp" />
     <ClCompile Include="1920.cpp" />
     <ClCompile Include="2805.cpp" />
     <ClCompile Include="BinarySearch.cpp" />
