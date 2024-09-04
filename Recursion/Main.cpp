@@ -1,7 +1,7 @@
-void P11729();
+void P2447();
 
 int main()
 {
-  P11729();
+  P2447();
   return 0;
 }
