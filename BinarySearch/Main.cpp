@@ -1,6 +1,5 @@
-void P12015();
+void P2470();
 
-int main()
-{
-  P12015();
+int main() {
+  P2470();
 }
