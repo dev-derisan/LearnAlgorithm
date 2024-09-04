@@ -12,10 +12,8 @@ void DrawStar(std::vector<std::vector<char>>& board, int x, int y, int size) {
   }
 
   int nextSize = (size / 3);
-  for (int i = 0; i < 3; ++i)
-  {
-    for (int j = 0; j < 3; ++j)
-    {
+  for (int i = 0; i < 3; ++i) {
+    for (int j = 0; j < 3; ++j) {
       if (i == 1 && j == 1) {
         continue;
       }
