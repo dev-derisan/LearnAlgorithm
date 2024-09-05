@@ -8,7 +8,7 @@ void P1300() {
   std::ios::sync_with_stdio(false);
   std::cin.tie(nullptr);
 
-  int n{}, k{};
+  long long n{}, k{};
   std::cin >> n >> k;
 
   long long left = 1;
