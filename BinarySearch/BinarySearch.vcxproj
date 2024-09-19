@@ -143,6 +143,7 @@
     <ClCompile Include="2470.cpp" />
     <ClCompile Include="2473.cpp" />
     <ClCompile Include="2512.cpp" />
+    <ClCompile Include="2776.cpp" />
     <ClCompile Include="2805.cpp" />
     <ClCompile Include="BinarySearch.cpp" />
     <ClCompile Include="Main.cpp" />
