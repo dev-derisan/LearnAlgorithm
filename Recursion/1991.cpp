@@ -6,15 +6,15 @@
 #include <numeric>
 #include <vector>
 
-struct Node {
+struct Case {
   char data;
-  Node* leftChild;
-  Node* rightChild;
+  Case* leftChild;
+  Case* rightChild;
 
-  Node(char _data) : data{_data}, leftChild(nullptr), rightChild(nullptr) {}
+  Case(char _data) : data{_data}, leftChild(nullptr), rightChild(nullptr) {}
 };
 
-void TraversePreorder(const Node* node) {
+void TraversePreorder(const Case* node) {
   if (!node || node->data == '.') {
     return;
   }
@@ -24,7 +24,7 @@ void TraversePreorder(const Node* node) {
   TraversePreorder(node->rightChild);
 }
 
-void TraverseInorder(const Node* node) {
+void TraverseInorder(const Case* node) {
   if (!node || node->data == '.') {
     return;
   }
@@ -34,7 +34,7 @@ void TraverseInorder(const Node* node) {
   TraverseInorder(node->rightChild);
 }
 
-void TraversePostorder(const Node* node) {
+void TraversePostorder(const Case* node) {
   if (!node || node->data == '.') {
     return;
   }
@@ -51,7 +51,7 @@ void P1991() {
   int n{};
   std::cin >> n;
 
-  std::vector<Node> nodes;
+  std::vector<Case> nodes;
   nodes.reserve(26);
   for (int i = 0; i < 26; ++i) {
     nodes.emplace_back('A' + i);
