@@ -7,7 +7,7 @@
 #include <unordered_map>
 #include <vector>
 
-int main() {
+void P11718() {
   std::cin.tie(NULL);
   std::ios::sync_with_stdio(false);
 
